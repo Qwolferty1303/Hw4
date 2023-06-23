@@ -32,7 +32,7 @@ console.log(letters);
 let arr = [1, 2, 3, 4, 5];
 
 arr.forEach(function(value, index, array) {
-  array[index] = 'Element'; // Заменяем текущий элемент на 'Element'
+  array[index] = 'Element';
 });
 
 console.log(arr);
